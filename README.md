@@ -19,7 +19,7 @@ Install all gems by running the [Bundler](http://gembundler.com/)
 $ bundle install
 ````   
 
-## Install LiveReload
+#### Install LiveReload
 
 If you want your browser to automatically refresh every time you modify a file. If yes, you need to install liveReload plugin to your browser. 
 You can check that our here: http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-
