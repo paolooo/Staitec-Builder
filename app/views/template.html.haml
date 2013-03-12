@@ -1,0 +1,39 @@
+!!! 5
+%html
+  %head
+    %title template
+    %meta{"http-equiv" => "Content-Type", :content => "text/html; charset=utf-8"}
+    %link{"rel" => "stylesheet", "href" => "stylesheets/application.css", "type" => "text/css"}
+    %link{"rel" => "stylesheet", "href" => "stylesheets/global.css", "type" => "text/css"}
+    %link{"rel" => "stylesheet", "href" => "stylesheets/skeleton/stylesheets/skeleton.css", "type" => "text/css"}
+
+  %body
+    #wrap
+      %header#hd
+        .container
+
+      %section#banner
+        #banner-shadow
+        .container
+
+      %section#bd
+        #bd-zz
+        .container
+
+
+      %footer#ft
+        #ft-zz
+        #ft-line
+        .container
+          .row.ft-links
+            %nav
+              %ul
+                %li
+                  %a{'href'=>'#', 'title'=>''} Home
+          .row.rights
+            %p
+              All rights reserved. Copyright &copy; 2013
+            
+
+    %script(type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+    %script(type="text/javascript" src="javascripts/application.js")

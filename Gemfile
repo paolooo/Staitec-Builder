@@ -11,9 +11,13 @@ gem 'haml'
 gem 'guard-haml'
 
 gem 'compass'
-gem 'guard-compass'
+#gem 'guard-compass'
+gem 'oily_png'
 
 gem 'coffee-script'
 gem 'guard-coffeescript'
 
-gem 'jquery-source'
+gem 'guard-livereload'
+gem 'guard-shell'
+
+gem 'foreman'

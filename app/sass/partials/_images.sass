@@ -1,0 +1,31 @@
+$general: sprite-map('general/*.png', $layout: smart, $spacing: 2)
+$tile-y: sprite-map('y/*.png',  $layout: horizontal, $spacing: 2)
+$tile-x: sprite-map('x/*.png', $layout: vertical, $spacing: 2)
+
+// example:
+// @include sprite-bg('sprites', 'bg-header-1x101', 'x');
+@mixin sprite-bg($map, $sprite, $repeat: repeat, $color: transparent, $offset_x: 0, $offset_y: 0)
+  @if $repeat == 'x'
+    $sprite: "#{$sprite}-x"
+    $repeat: repeat-x
+  @else if $repeat == 'y'
+    $sprite: "#{$sprite}-y"
+    $repeat: repeat-y
+  @else if $repeat == 'n'
+    $sprite: "#{$sprite}-n"
+    $repeat: no-repeat
+  background: $color sprite($map, $sprite, $offset_x, $offset_y) $repeat
+
+// simple background repeat-[x,y]
+@mixin bg-image($img, $repeat: repeat, $x: 0, $y: 0, $color: transparent)
+  background: $color url("#{$img}") $x $y $repeat
+
+// repeat background x
+// +bg-image-x('/sprites/icon-x.png')
+@mixin bg-image-x($img, $x: 0, $y: 0, $color: transparent)
+  @include bg-image($img, repeat-x, $x, $y, $color)
+
+// repeat background y
+// +bg-image-y('/sprites/icon-y.png')
+@mixin bg-image-y($img, $x: 0, $y: 0, $color: transparent)
+  @include bg-image($img, repeat-y, $x, $y, $color)
