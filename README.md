@@ -46,14 +46,14 @@ $ bundle exec foreman start
 
 ### References
 
-* Haml - (http://haml.info/)[http://haml.info/]
-* Compass - (http://compass-style.org/)[http://compass-style.org/]
-* SaSS -(http://sass-lang.com/)[http://sass-lang.com/] 
-* Coffeescript - (http://coffeescript.org/)[http://coffeescript.org/]
-* LiveReload - (https://github.com/guard/guard-livereload)[https://github.com/guard/guard-livereload]
-* Guard - (https://github.com/guard/guard)[https://github.com/guard/guard]
-* foreman - (https://github.com/ddollar/foreman)[https://github.com/ddollar/foreman]
-* getSkeleton - (http://www.getskeleton.com/)[http://www.getskeleton.com/]
+* Haml - http://haml.info/
+* Compass - http://compass-style.org/
+* SaSS -http://sass-lang.com/
+* Coffeescript - http://coffeescript.org/
+* LiveReload - https://github.com/guard/guard-livereload
+* Guard - https://github.com/guard/guard
+* foreman - https://github.com/ddollar/foreman
+* getSkeleton - http://www.getskeleton.com/
 
 
 ### Sample Usage of Compass 
