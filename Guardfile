@@ -26,10 +26,10 @@ end
 # Add files and commands to this file, like the example:
 #   watch(%r{file/path}) { `command(s)` }
 #
-guard 'shell' do
-  #watch(/(.*).txt/) {|m| `tail #{m[0]}` }
-  watch(%r{(stylesheets/.+\.css)}) { |m| `cp -R #{m[0]} ../stylesheets` }
-  watch(%r{(javascripts/.+\.js)}) { |m| `cp -R #{m[0]} ../javascripts` }
-  watch(%r{(images/.+\.(png|jpg|gif))}) { |m| `cp -R #{m[0]} ../images` }
-  watch(%r{(.+\.html)}) { |m| `cp -R #{m[0]} ../` }
-end
+#guard 'shell' do
+#  #watch(/(.*).txt/) {|m| `tail #{m[0]}` }
+#  watch(%r{(stylesheets/.+\.css)}) { |m| `cp -R #{m[0]} ../stylesheets` }
+#  watch(%r{(javascripts/.+\.js)}) { |m| `cp -R #{m[0]} ../javascripts` }
+#  watch(%r{(images/.+\.(png|jpg|gif))}) { |m| `cp -R #{m[0]} ../images` }
+#  watch(%r{(.+\.html)}) { |m| `cp -R #{m[0]} ../` }
+#end

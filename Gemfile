@@ -10,6 +10,7 @@ gem 'libnotify' if /darwin/ =~ RUBY_PLATFORM
 gem 'haml'
 gem 'guard-haml'
 
+gem 'susy'
 gem 'compass'
 #gem 'guard-compass'
 gem 'oily_png'
