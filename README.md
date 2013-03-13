@@ -43,6 +43,11 @@ Run foreman to execute `compass watch` and `guard` in background
 $ bundle exec foreman start
 ```
 
+For, Windows
+```bash
+> foreman
+```
+
 
 ### References
 
