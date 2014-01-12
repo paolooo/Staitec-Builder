@@ -2,22 +2,23 @@
 
 Staitec Builder is a static website builder that uses the power of gems such as haml, sass, compass, coffeescript, guard, foreman, and livereload to build "Static Web Site" in no time.
 
+### Requirements
 
-## Install  
-
-#### Compass
+* Ruby
+* NodeJs
+* Bower
 
 ```bash
-$ compass create --syntax sass --sass-dir "app/sass" --css-dir "stylesheets" --javascripts-dir "javascripts" --images-dir "images"
-````   
+$ npm install bower -g
+```
 
-#### Gems
-
-Install all gems by running the [Bundler](http://gembundler.com/)
+### Getting Started
 
 ```bash
 $ bundle install
-````   
+$ compass create --syntax sass --sass-dir "app/sass" --css-dir "stylesheets" --javascripts-dir "javascripts" --images-dir "images"
+$ bower install
+```
 
 #### Install LiveReload
 
